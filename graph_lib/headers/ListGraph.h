@@ -1,0 +1,6 @@
+#include "Graph.h"
+
+#ifndef ALGORITHMS_HW3_LISTGRAPH_H
+#define ALGORITHMS_HW3_LISTGRAPH_H
+
+#endif //ALGORITHMS_HW3_LISTGRAPH_H

@@ -1,0 +1,6 @@
+#include "Graph.h"
+
+#ifndef ALGORITHMS_HW3_ARCGRAPH_H
+#define ALGORITHMS_HW3_ARCGRAPH_H
+
+#endif //ALGORITHMS_HW3_ARCGRAPH_H
