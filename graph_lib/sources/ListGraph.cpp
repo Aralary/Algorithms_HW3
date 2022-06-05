@@ -26,7 +26,7 @@ std::vector<int> ListGraph::GetPrevVertices(int vertex) const {
         if (i == vertex) {
             continue;
         } else {
-            for (int j = 0; j < list_gr[i].size(); ++i) {
+            for (int j = 0; j < list_gr[i].size(); ++j) {
                 if (list_gr[i][j] == vertex) {
                     result.push_back(i);
                 }

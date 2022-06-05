@@ -1,7 +1,4 @@
 #include <iostream>
-#include "ListGraph.h"
-#include "MatrixGraph.h"
-#include "SetGraph.h"
 
 int main(){
     SetGraph gr1(5);

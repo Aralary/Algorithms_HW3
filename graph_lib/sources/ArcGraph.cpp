@@ -7,8 +7,8 @@ ArcGraph::ArcGraph(int v_count) : size(v_count) {
 ArcGraph::ArcGraph(const IGraph &gr) : size(gr.VerticesCount()) {
     for (int i = 0; i < gr.VerticesCount(); ++i) {
         auto item = gr.GetNextVertices(i);
-        for (int j = 0; i < item.size(); ++j) {
-            ribs.emplace_back(i, item[j]);
+        for (const auto &j: item) {
+            ribs.emplace_back(i, j);
         }
     }
 }

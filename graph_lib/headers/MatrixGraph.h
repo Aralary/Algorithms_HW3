@@ -20,14 +20,14 @@ public:
 
     std::vector<int> GetPrevVertices(int vertex) const override;
 
-    void print() const {
-        for (size_t i = 0; i < m_gr.size(); ++i) {
-            for (size_t j = 0; j < m_gr[i].size(); ++j) {
-                std::cout << m_gr[i][j] << ' ';
-            }
-            std::cout << std::endl;
-        }
-    }
+//    void print() const {
+//        for (size_t i = 0; i < m_gr.size(); ++i) {
+//            for (size_t j = 0; j < m_gr[i].size(); ++j) {
+//                std::cout << m_gr[i][j] << ' ';
+//            }
+//            std::cout << std::endl;
+//        }
+//    }
 
 private:
     std::vector<std::vector<bool>> m_gr;
